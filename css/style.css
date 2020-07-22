@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+    margin:0px;
+    padding:0px;
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.nav-menu{
+    
+    
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: lighter;
+    background-color: rgba(0, 0, 0, .6);
+    margin-top: 0px;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.nav-menu ul  {
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin:0px;
+    
+   
+}
+
+.nav-menu li  {
+   
+   text-decoration: none;
+    
+   
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color:white ;
+}
+
+.nav-menu a:hover{
+    background-color: #777;
+}
+
+.main-header h2{
+    text-align: center;
+    color:white;
+    font-weight:bold;
+    font-size: 3em;
+    padding: 50px;
+    
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.section-header{
+    text-align:center;
+    padding: 40px;
+    
+}
+
+.shop-items{
+    display: flex;
+    justify-content: space-evenly;
+    margin:30px;
+
+}
+
+.shop-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-item-title,.shop-item-details{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.btn{
+    padding: 5px;
+}
+
+.section-cart-header{
+    padding: 20px;
+}
+
+.cart-row-header{
+    display: flex;
+    justify-content:space-around;
+}
+
+.cart-content-contaienr{
+    width:60%;
+}
+
+.cart-row-header{
+    margin: 20px ;
+    padding: 20px;
+    font-weight: bold;
+    border-bottom: solid black 1px;
+}
+
+.cart-row{
+    display: flex;
+    justify-content: space-around;
+    margin:20px;
+    border-bottom: solid black 1px;
+    
+}
+
+.cart-column-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+.cart-item-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.cart-column-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.cart-row span{
+    margin-left: 60px;
+}
+
+footer{
+    text-align: center;
+    font-size: 1.4em;
+    background-color: rgba(0, 0, 0, .6);
+    margin-top: 0px;
+    padding: 20px;
+}
+
+footer h5{
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+.cart-total{
+   display:flex;
+   align-items: flex-end;
+   flex-direction: column;
+   margin:50px;
+   font-size: larger;
+}
+
+.btn-purchase{
+    margin: 0px 0px 10px 320px;
+}
+
+.likeButton {
+   
+    margin-left: 140px;
+    font-size: xx-large;
+    color:black;
+   
+   
+}
+
